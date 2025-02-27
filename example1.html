@@ -1,0 +1,103 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Мой сайт</title> <!-- Здесь пишите название вашего сайта -->
+</head>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+nav {
+    background: #444;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 40px;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+.form-container {
+    background: #f4f4f4;
+    padding: 15px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 5px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+}
+</style>
+<body>
+    <header>
+        <h1>Мой сайт</h1>
+    </header>
+    <nav>
+        <a href="#about">О сайте</a>
+        <a href="#projects">Проекты</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>О сайте</h2>
+            <p>Здесь можно написать, о чем этот сайт.</p>
+        </section>
+        <section id="projects">
+            <h2>Проекты</h2>
+            <p>Здесь можно рассказать о своих работах.</p>
+        </section>
+        <section id="contact">
+            <h2>Контакты</h2>
+            <div class="form-container">
+                <form>
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Мой сайт. Все права защищены.</p>
+    </footer>
+</body>
+</html>
