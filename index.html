@@ -6,13 +6,15 @@
     <title>Мой сайт</title> <!-- Здесь пишите название вашего сайта -->
 </head>
 <body>
-    <header>
-        <h1>Мой сайт</h1>
+    <header> <!-- Здесь прописываете Шапку (Хедер) вашего сайта -->
+        <header>
+            <h1>Мой сайт</h1>
+        </header>
         <nav>
-        <a href="#about">О сайте</a>
-        <a href="#projects">Проекты</a>
-        <a href="#contact">Контакты</a>
-    </nav>
+            <a href="#about">О сайте</a>
+            <a href="#projects">Проекты</a>
+            <a href="#contact">Контакты</a>
+        </nav>
     </header>
     
     <main>
@@ -24,23 +26,24 @@
             <h2>Проекты</h2>
             <p>Здесь можно рассказать о своих работах.</p>
         </section>
+
         <section id="contact">
             <h2>Контакты</h2>
-            <div class="form-container">
-                <form>
-                    <label for="name">Имя:</label>
-                    <input type="text" id="name" name="name" required>
-                    
-                    <label for="message">Сообщение:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                    
-                    <button type="submit">Отправить</button>
-                </form>
-            </div>
+            <form class="form-container"> <!-- Это форма обратной связи на сайте -->
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2025 Мой сайт. Все права защищены.</p>
+        <p>Здесь пишите контактную информацию (адрес, номер телефона и тд)</p>
     </footer>
+
 </body>
 </html>
